@@ -70,12 +70,23 @@ Specialized modeling algorithms may be used that pay more attention to the minor
 ## Logistic Regression
 Logistic Regression is a classification model that is used when the dependent variable (output) is in the binary format such as 0 (False) or 1 (True). Examples include such as predicting if there is a tumor (1) or not (0) and if an email is a spam (1) or not (0). The logistic function, also called as sigmoid function was initially used by statisticians to describe properties of population growth in ecology. The sigmoid function is a mathematical function used to map the predicted values to probabilities. Logistic Regression has an S-shaped curve and can take values between 0 and 1 but never exactly at those limits. It has the formula of 1 / (1 + e^-value). The Assumptions of the model are the same as linear regression except the assumption of linearity.
 
+# K-Nearest Neighbors (KNN) Classification
+The KNN algorithm assumes that similar things exist in close proximity. In other words, similar things are near to each other. K nearest neighbors is a simple algorithm that stores all available cases and classifies new cases based on a similarity measure (e.g., distance functions). Suppose P1 is the point, for which a label needs to be predicted. First, you find the k closest points to P1 and then classify points by majority vote of its k neighbors. Each object votes for their class and the class with the most votes is taken as the prediction. For finding closest similar points, you find the distance between points using distance measures such as Euclidean distance, Hamming distance, Manhattan distance and Minkowski distance.
+
+KNN is a non-parametric and lazy learning algorithm. Non-parametric means there is no assumption for underlying data distribution. In other words, the model structure determined from the dataset. This will be very helpful in practice where most of the real world datasets do not follow mathematical theoretical assumptions. Lazy algorithm means it does not need any training data points for model generation. All training data used in the testing phase. This makes training faster and testing phase slower and costlier. Costly testing phase means time and memory. In the worst case, KNN needs more time to scan all data points and scanning all data points will require more memory for storing training data. 
+
+## Support Vector Machine (SVM) Classification
+The objective of the support vector machine algorithm is to find a hyperplane in an N-dimensional space(N — the number of features) that distinctly classifies the data points. To separate the two classes of data points, there are many possible hyperplanes that could be chosen. Our objective is to find a plane that has the maximum margin, i.e the maximum distance between data points of both classes. Maximizing the margin distance provides some reinforcement so that future data points can be classified with more confidence. 
+
+Hyperplanes are decision boundaries that help classify the data points. Data points falling on either side of the hyperplane can be attributed to different classes. Also, the dimension of the hyperplane depends upon the number of features. If the number of input features is 2, then the hyperplane is just a line. If the number of input features is 3, then the hyperplane becomes a two-dimensional plane. Support vectors are data points that are closer to the hyperplane and influence the position and orientation of the hyperplane. Using these support vectors, we maximize the margin of the classifier. Deleting the support vectors will change the position of the hyperplane. These are the points that help us build our SVM.
 
 ## References
 
 Brownlee, J. (2020) 4 Types of Classification Tasks in Machine Learning. Available at: https://machinelearningmastery.com/types-of-classification-in-machine-learning/ (Accessed: 27 August 2021)
 
 Chatterjee, D. (2019) All the Annoying Assumptions. Available at: https://towardsdatascience.com/all-the-annoying-assumptions-31b55df246c3 (Accessed: 27 August 2021)
+
+Gandhi, R. (2018) Support Vector Machine - Introduction to Machine Learning Algorithms. Available at: https://towardsdatascience.com/support-vector-machine-introduction-to-machine-learning-algorithms-934a444fca47 (Accessed: 27 August 2021)
 
 Gaurav, H. (2021) 5 Classification Algorithms you should know - introductory guide. Available at: https://www.analyticsvidhya.com/blog/2021/05/5-classification-algorithms-you-should-know-introductory-guide/ (Accessed: 27 August 2021)
 
@@ -88,6 +99,12 @@ Gurucharan, M. (2020) Machine Learning Basics: Naive Bayes Classification. Avail
 Gurucharan, M. (2020) Machine Learning Basics: Random Forest Classification. Available at: https://towardsdatascience.com/machine-learning-basics-random-forest-classification-499279bac51e (Accessed: 27 August 2021)
 
 Gurucharan, M. (2020) Machine Learning Basics: Support Vector Machine (SVM) Classification. Available at: https://towardsdatascience.com/machine-learning-basics-support-vector-machine-svm-classification-205ecd28a09d (Accessed: 27 August 2021)
+
+Harrison, O. (2018) Machine Learning Basics with K-Nearest Neighbors Algorithm. Available at: https://towardsdatascience.com/machine-learning-basics-with-the-k-nearest-neighbors-algorithm-6a6e71d01761 (Accessed: 27 August 2021)
+
+Navlani, A. (2018) KNN Classification using Scikit-learn. Available at: https://www.datacamp.com/community/tutorials/k-nearest-neighbor-classification-scikit-learn (Accessed: 27 August 2021)
+
+Sayad, S. (2021) K Nearest Neighbors - Classification. Available at: https://www.saedsayad.com/k_nearest_neighbors.htm (Accessed: 27 August 2021)
 
 Sharma, N. (2019) Importance of Distance Metrics in Machine Learning Modelling. Available at: https://towardsdatascience.com/importance-of-distance-metrics-in-machine-learning-modelling-e51395ffe60d (Accessed: 27 August 2021)
 
