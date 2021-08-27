@@ -89,6 +89,8 @@ Gurucharan, M. (2020) Machine Learning Basics: Random Forest Classification. Ava
 
 Gurucharan, M. (2020) Machine Learning Basics: Support Vector Machine (SVM) Classification. Available at: https://towardsdatascience.com/machine-learning-basics-support-vector-machine-svm-classification-205ecd28a09d (Accessed: 27 August 2021)
 
+Udacity (2021) Artificial Intelligence for Trading. Available at: https://www.udacity.com/course/ai-for-trading--nd880 (Accessed: 27 August 2021)
+
 Verma, S. (2021) Softmax Regression in Python: Multi-Class Classification. Available at: https://towardsdatascience.com/softmax-regression-in-python-multi-class-classification-3cb560d90cb2 (Accessed: 27 August 2021)
 
 365 Careers (2021) The Data Science Course 2021: Complete Data Science Bootcamp. Available at: https://www.udemy.com/course/the-data-science-course-complete-data-science-bootcamp/ (Accessed: 24 August 2021)
