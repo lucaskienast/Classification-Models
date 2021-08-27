@@ -49,6 +49,24 @@ Specialized versions of standard classification algorithms can be used, so-calle
 
 Another approach is to use a separate classification algorithm to predict the labels for each class.
 
+## Imbalanced Classification
+Imbalanced classification refers to classification tasks where the number of examples in each class is unequally distributed. Typically, imbalanced classification tasks are binary classification tasks where the majority of examples in the training dataset belong to the normal class and a minority of examples belong to the abnormal class. These problems are modeled as binary classification tasks, although may require specialized techniques. Example applications include:
+
+- Fraud detection
+- Outlier detection
+- Medical diagnostic tests
+
+Specialized techniques may be used to change the composition of samples in the training dataset by undersampling the majority class or oversampling the minority class. Examples include:
+
+- Random Undersampling
+- SMOTE Oversampling
+
+Specialized modeling algorithms may be used that pay more attention to the minority class when fitting the model on the training dataset, such as cost-sensitive machine learning algorithms. Examples include:
+
+- Cost-sensitive Logistic Regression
+- Cost-sensitive Decision Trees
+- Cost-sensitive Support Vector Machines
+
 ## References
 
 Brownlee, J. (2020) 4 Types of Classification Tasks in Machine Learning. Available at: https://machinelearningmastery.com/types-of-classification-in-machine-learning/ (Accessed: 27 August 2021)
