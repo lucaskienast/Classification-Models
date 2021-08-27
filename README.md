@@ -67,6 +67,10 @@ Specialized modeling algorithms may be used that pay more attention to the minor
 - Cost-sensitive Decision Trees
 - Cost-sensitive Support Vector Machines
 
+## Logistic Regression
+Logistic Regression is a classification model that is used when the dependent variable (output) is in the binary format such as 0 (False) or 1 (True). Examples include such as predicting if there is a tumor (1) or not (0) and if an email is a spam (1) or not (0). The logistic function, also called as sigmoid function was initially used by statisticians to describe properties of population growth in ecology. The sigmoid function is a mathematical function used to map the predicted values to probabilities. Logistic Regression has an S-shaped curve and can take values between 0 and 1 but never exactly at those limits. It has the formula of 1 / (1 + e^-value). The Assumptions of the model are the same as linear regression except the assumption of linearity.
+
+
 ## References
 
 Brownlee, J. (2020) 4 Types of Classification Tasks in Machine Learning. Available at: https://machinelearningmastery.com/types-of-classification-in-machine-learning/ (Accessed: 27 August 2021)
