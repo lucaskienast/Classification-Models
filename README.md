@@ -110,6 +110,8 @@ Sharma, N. (2019) Importance of Distance Metrics in Machine Learning Modelling. 
 
 Udacity (2021) Artificial Intelligence for Trading. Available at: https://www.udacity.com/course/ai-for-trading--nd880 (Accessed: 27 August 2021)
 
+Verma, S. (2021) Logistic Regression From Scratch in Python. Available at: https://towardsdatascience.com/logistic-regression-from-scratch-in-python-ec66603592e2 (Accessed: 27 August 2021)
+
 Verma, S. (2021) Softmax Regression in Python: Multi-Class Classification. Available at: https://towardsdatascience.com/softmax-regression-in-python-multi-class-classification-3cb560d90cb2 (Accessed: 27 August 2021)
 
 365 Careers (2021) The Data Science Course 2021: Complete Data Science Bootcamp. Available at: https://www.udemy.com/course/the-data-science-course-complete-data-science-bootcamp/ (Accessed: 24 August 2021)
