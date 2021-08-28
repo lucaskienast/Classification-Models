@@ -93,6 +93,8 @@ The random forest is an ensemble classification algorithm consisting of many dec
 
 Aznar, P. (2020) Decision Trees: Gini vs Entropy. Available at: https://quantdare.com/decision-trees-gini-vs-entropy/ (Accessed: 28 August 2021)
 
+Bose, A. (2019) Handwritten Digit Recognition Using PyTorch - Intro to Neural Networks. Available at: https://towardsdatascience.com/handwritten-digit-mnist-pytorch-977b5338e627 (Accessed: 28 August 2021)
+
 Brownlee, J. (2020) 4 Types of Classification Tasks in Machine Learning. Available at: https://machinelearningmastery.com/types-of-classification-in-machine-learning/ (Accessed: 27 August 2021)
 
 Chatterjee, D. (2019) All the Annoying Assumptions. Available at: https://towardsdatascience.com/all-the-annoying-assumptions-31b55df246c3 (Accessed: 27 August 2021)
