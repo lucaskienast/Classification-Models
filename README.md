@@ -83,6 +83,9 @@ Hyperplanes are decision boundaries that help classify the data points. Data poi
 ## Naive Bayes Classification
 A Naive Bayes classifier is a probabilistic machine learning model that’s used for classification task. The crux of the classifier is based on the Bayes theorem. Using Bayes theorem, we can find the probability of A happening, given that B has occurred. Here, B is the evidence and A is the hypothesis. The assumption made here is that the predictors/features are independent. That is presence of one particular feature does not affect the other. Hence it is called naive.  For two independent events, P(A,B) = P(A)P(B). This assumption of Bayes Theorem is probably never encountered in practice. Bayes’ Theorem is stated as: P(a|b) = (P(b|a) * P(a)) / P(b). Where P(a|b) is the probability of a given b.
 
+## Decision Tree Classification
+A decision tree is a flowchart-like tree structure where an internal node represents feature(or attribute), the branch represents a decision rule, and each leaf node represents the outcome. The topmost node in a decision tree is known as the root node. It learns to partition on the basis of the attribute value. It partitions the tree in recursively manner call recursive partitioning. This flowchart-like structure helps you in decision making. It's visualization like a flowchart diagram which easily mimics the human level thinking. That is why decision trees are easy to understand and interpret. Decision Tree is a white box type of ML algorithm. It shares internal decision-making logic, which is not available in the black box type of algorithms such as Neural Network. Its training time is faster compared to the neural network algorithm. The time complexity of decision trees is a function of the number of records and number of attributes in the given data. The decision tree is a distribution-free or non-parametric method, which does not depend upon probability distribution assumptions. Decision trees can handle high dimensional data with good accuracy.
+
 ## References
 
 Brownlee, J. (2020) 4 Types of Classification Tasks in Machine Learning. Available at: https://machinelearningmastery.com/types-of-classification-in-machine-learning/ (Accessed: 27 August 2021)
@@ -106,6 +109,8 @@ Gurucharan, M. (2020) Machine Learning Basics: Random Forest Classification. Ava
 Gurucharan, M. (2020) Machine Learning Basics: Support Vector Machine (SVM) Classification. Available at: https://towardsdatascience.com/machine-learning-basics-support-vector-machine-svm-classification-205ecd28a09d (Accessed: 27 August 2021)
 
 Harrison, O. (2018) Machine Learning Basics with K-Nearest Neighbors Algorithm. Available at: https://towardsdatascience.com/machine-learning-basics-with-the-k-nearest-neighbors-algorithm-6a6e71d01761 (Accessed: 27 August 2021)
+
+Navlani, A. (2018) Decision Tree Classification in Python. Available at: https://www.datacamp.com/community/tutorials/decision-tree-classification-python (Accessed: 28 August 2021)
 
 Navlani, A. (2018) KNN Classification using Scikit-learn. Available at: https://www.datacamp.com/community/tutorials/k-nearest-neighbor-classification-scikit-learn (Accessed: 27 August 2021)
 
