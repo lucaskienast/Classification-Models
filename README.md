@@ -80,11 +80,16 @@ The objective of the support vector machine algorithm is to find a hyperplane in
 
 Hyperplanes are decision boundaries that help classify the data points. Data points falling on either side of the hyperplane can be attributed to different classes. Also, the dimension of the hyperplane depends upon the number of features. If the number of input features is 2, then the hyperplane is just a line. If the number of input features is 3, then the hyperplane becomes a two-dimensional plane. Support vectors are data points that are closer to the hyperplane and influence the position and orientation of the hyperplane. Using these support vectors, we maximize the margin of the classifier. Deleting the support vectors will change the position of the hyperplane. These are the points that help us build our SVM.
 
+## Naive Bayes Classification
+A Naive Bayes classifier is a probabilistic machine learning model that’s used for classification task. The crux of the classifier is based on the Bayes theorem. Using Bayes theorem, we can find the probability of A happening, given that B has occurred. Here, B is the evidence and A is the hypothesis. The assumption made here is that the predictors/features are independent. That is presence of one particular feature does not affect the other. Hence it is called naive.  For two independent events, P(A,B) = P(A)P(B). This assumption of Bayes Theorem is probably never encountered in practice. Bayes’ Theorem is stated as: P(a|b) = (P(b|a) * P(a)) / P(b). Where P(a|b) is the probability of a given b.
+
 ## References
 
 Brownlee, J. (2020) 4 Types of Classification Tasks in Machine Learning. Available at: https://machinelearningmastery.com/types-of-classification-in-machine-learning/ (Accessed: 27 August 2021)
 
 Chatterjee, D. (2019) All the Annoying Assumptions. Available at: https://towardsdatascience.com/all-the-annoying-assumptions-31b55df246c3 (Accessed: 27 August 2021)
+
+Gandhi, R. (2018) Naive Bayes Classifier. Available at: https://towardsdatascience.com/naive-bayes-classifier-81d512f50a7c (Accessed: 28 August 2021)
 
 Gandhi, R. (2018) Support Vector Machine - Introduction to Machine Learning Algorithms. Available at: https://towardsdatascience.com/support-vector-machine-introduction-to-machine-learning-algorithms-934a444fca47 (Accessed: 27 August 2021)
 
