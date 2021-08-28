@@ -86,6 +86,9 @@ A Naive Bayes classifier is a probabilistic machine learning model that’s used
 ## Decision Tree Classification
 A decision tree is a flowchart-like tree structure where an internal node represents feature(or attribute), the branch represents a decision rule, and each leaf node represents the outcome. The topmost node in a decision tree is known as the root node. It learns to partition on the basis of the attribute value. It partitions the tree in recursively manner call recursive partitioning. This flowchart-like structure helps you in decision making. It's visualization like a flowchart diagram which easily mimics the human level thinking. That is why decision trees are easy to understand and interpret. Decision Tree is a white box type of ML algorithm. It shares internal decision-making logic, which is not available in the black box type of algorithms such as Neural Network. Its training time is faster compared to the neural network algorithm. The time complexity of decision trees is a function of the number of records and number of attributes in the given data. The decision tree is a distribution-free or non-parametric method, which does not depend upon probability distribution assumptions. Decision trees can handle high dimensional data with good accuracy.
 
+# Random Forest Classification
+The random forest is an ensemble classification algorithm consisting of many decisions trees. It uses bagging and feature randomness when building each individual tree to try to create an uncorrelated forest of trees whose prediction by committee is more accurate than that of any individual tree. Each individual tree in the random forest spits out a class prediction and the class with the most votes becomes our model’s prediction. The low correlation between models is the key. Just like how investments with low correlations (like stocks and bonds) come together to form a portfolio that is greater than the sum of its parts, uncorrelated models can produce ensemble predictions that are more accurate than any of the individual predictions. The reason for this wonderful effect is that the trees protect each other from their individual errors (as long as they don’t constantly all err in the same direction). While some trees may be wrong, many other trees will be right, so as a group the trees are able to move in the correct direction. 
+
 ## References
 
 Aznar, P. (2020) Decision Trees: Gini vs Entropy. Available at: https://quantdare.com/decision-trees-gini-vs-entropy/ (Accessed: 28 August 2021)
@@ -125,5 +128,7 @@ Udacity (2021) Artificial Intelligence for Trading. Available at: https://www.ud
 Verma, S. (2021) Logistic Regression From Scratch in Python. Available at: https://towardsdatascience.com/logistic-regression-from-scratch-in-python-ec66603592e2 (Accessed: 27 August 2021)
 
 Verma, S. (2021) Softmax Regression in Python: Multi-Class Classification. Available at: https://towardsdatascience.com/softmax-regression-in-python-multi-class-classification-3cb560d90cb2 (Accessed: 27 August 2021)
+
+Yiu, T. (2019) Understanding Random Forest. Available at: https://towardsdatascience.com/understanding-random-forest-58381e0602d2 (Accessed: 28 August 2021)
 
 365 Careers (2021) The Data Science Course 2021: Complete Data Science Bootcamp. Available at: https://www.udemy.com/course/the-data-science-course-complete-data-science-bootcamp/ (Accessed: 24 August 2021)
