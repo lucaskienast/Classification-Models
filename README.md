@@ -1,4 +1,4 @@
-# Classification-Models
+# Classification Models (Supervised Learning)
 Overview of theory and common techniques for classification problems.
 
 - Binary Classification
