@@ -6,6 +6,13 @@ Overview of theory and common techniques for classification problems.
 - Multi-Label Classification
 - Imbalanced Classification
 
+## Installation
+Use `git clone` to get a copy of this repository.
+```
+$ git clone https://github.com/lucaskienast/Classification-Models.git
+$ cd Classification-Models
+```
+
 ## Binary Classification
 Binary classification refers to those classification tasks that have two class labels, such as email spam detection (spam or not). Typically, binary classification tasks involve one class that is the normal state and another class that is the abnormal state. For example “not spam” is the normal state and “spam” is the abnormal state. The class for the normal state is assigned the class label 0 and the class with the abnormal state is assigned the class label 1. It is common to model a binary classification task with a model that predicts a Bernoulli probability distribution for each example. The Bernoulli distribution is a discrete probability distribution that covers a case where an event will have a binary outcome as either a 0 or 1. For classification, this means that the model predicts a probability of an example belonging to class 1, or the abnormal state. Some algorithms are specifically designed for binary classification and do not natively support more than two classes; examples include Logistic Regression and Support Vector Machines.
 
